@@ -2,7 +2,9 @@
 
 
 function App() {
-  return <h1>Hello,world</h1>
+  const greet = "Hi,tom"
+  const dom = <h1 className=""></h1>
+  return dom;
 }
 
 export default App;
